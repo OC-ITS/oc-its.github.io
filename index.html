@@ -10,101 +10,139 @@
   <meta name="keywords" content="Netzwerkhilfe Kiel, Cisco Support, IT Hilfe, Heimnetzwerk, Router konfigurieren, Firewall, LAN Hilfe">
   <meta name="author" content="OC-ITS">
 
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- Strukturierte Daten (JSON-LD für Google) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Netzwerkhilfe Kiel",
+    "description": "Private Hilfe für Heimnetzwerke, Cisco Router und Firewalls in Kiel.",
+    "image": "https://oc-its.github.io/Netzwerk.png",
+    "email": "mailto:OC-ITS@protonmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kiel",
+      "addressCountry": "DE"
+    },
+    "url": "https://oc-its.github.io",
+    "areaServed": "Kiel",
+    "keywords": "Cisco, Netzwerkhilfe, Heimnetzwerk, Firewall, IT Support Kiel"
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: sans-serif;
-      max-width: 800px;
+      font-family: 'Open Sans', sans-serif;
+      max-width: 900px;
       margin: 40px auto;
       padding: 0 20px;
-      line-height: 1.6;
-      background: #f9f9f9;
+      line-height: 1.7;
+      background: linear-gradient(to bottom, #f9f9f9, #e9eef5);
       color: #333;
     }
     h1, h2 {
-      color: #004f9f;
+      color: #003e7e;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.3em;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin-top: 1.5em;
     }
     ul {
       padding-left: 20px;
     }
+    li {
+      margin-bottom: 0.5em;
+    }
     footer {
-      margin-top: 40px;
+      margin-top: 60px;
       font-size: 0.9em;
       color: #666;
+      text-align: center;
     }
     .header-container {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
+      gap: 20px;
+      flex-wrap: wrap;
     }
     .header-text {
       flex: 1;
     }
     .header-image {
-      max-width: 300px;
-      margin-left: 20px;
-      border: 1px solid #ccc;
-      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+      max-width: 280px;
       border-radius: 8px;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .contact-button {
+      display: inline-block;
+      background: #003e7e;
+      color: #fff;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 30px;
+      font-weight: 600;
+    }
+    .contact-button:hover {
+      background: #0055aa;
     }
     @media (max-width: 700px) {
       .header-container {
         flex-direction: column;
+        align-items: center;
       }
       .header-image {
-        margin: 20px 0;
         max-width: 100%;
+        margin-top: 20px;
       }
-    }
-    .contact-button {
-      display: inline-block;
-      background: #004f9f;
-      color: #fff;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 5px;
-      margin-top: 20px;
     }
   </style>
 </head>
 <body>
-
   <div class="header-container">
     <div class="header-text">
-      <h1>Hallo liebe Kielerinnen und Kieler,</h1>
-      <p>Läuft Ihr Heimnetzwerk oder kleines Büro-LAN nicht rund?<br>
-      Haben Sie spezielle Hardware (z. B. von Cisco) und brauchen Unterstützung bei der Einrichtung oder Fehlersuche?</p>
+      <h1>Netzwerkhilfe in Kiel – zuverlässig & persönlich</h1>
+      <p>Ob Heimnetzwerk oder kleines Büro: Wenn Ihr Netzwerk langsam ist, Verbindungen abbrechen oder Sie Cisco-Hardware nutzen – ich helfe Ihnen kompetent und unbürokratisch vor Ort.</p>
     </div>
     <img src="Netzwerk.png" alt="Netzwerkübersicht" class="header-image">
   </div>
 
-  <p>Als erfahrener IT-Fachmann mit viel praktischer Erfahrung im Bereich Cisco (Routing, Switching, Firewall) und guten Kenntnissen anderer professioneller Netzwerkhersteller, biete ich privat meine Unterstützung in Kiel und naher Umgebung an.</p>
-
   <h2>Wobei ich helfen kann:</h2>
   <ul>
-    <li><strong>Fehlersuche & Problemlösung:</strong> Wenn das LAN langsam ist, Verbindungen abbrechen oder etwas nicht funktioniert – auch knifflige Fälle (L2/L3).</li>
-    <li><strong>Einrichtung & Konfiguration:</strong> Hilfe beim Setup von Routern, Switches und Firewalls für ein stabiles und sicheres Netzwerk.</li>
-    <li><strong>Sicherheits-Check & Optimierung:</strong> Überprüfung Ihrer Firewall-Regeln, VLANs für Home-Office oder Gäste.</li>
-    <li><strong>Cisco-spezifische Unterstützung:</strong> Konfiguration und Troubleshooting im Heim- oder Kleinbüro-Umfeld.</li>
-    <li><strong>Verständliche Erklärungen:</strong> Ich helfe Ihnen, Ihr Netzwerk besser zu verstehen.</li>
+    <li><strong>Fehlersuche & Problemlösung:</strong> Ich finde Netzwerkprobleme auf Layer 2 und Layer 3 – schnell und effizient.</li>
+    <li><strong>Einrichtung & Konfiguration:</strong> Router, Switches, Firewalls – professionell eingerichtet für optimale Leistung und Sicherheit.</li>
+    <li><strong>Firewall & Sicherheit:</strong> Konfiguration von VLANs, Gastnetzwerken und Zugriffsregeln.</li>
+    <li><strong>Cisco Know-how:</strong> Spezialisiert auf Cisco, aber auch Erfahrung mit vielen anderen Herstellern.</li>
+    <li><strong>Verständliche Erklärung:</strong> Technik ohne Fachchinesisch – Sie wissen, was in Ihrem Netzwerk passiert.</li>
   </ul>
 
-  <h2>Ideal für:</h2>
+  <h2>Für wen ist mein Service ideal?</h2>
   <ul>
-    <li>Technisch interessierte Privatanwender</li>
-    <li>Anspruchsvolle Home-Office-Nutzer</li>
-    <li>Kleine Bürogemeinschaften oder Selbstständige</li>
-    <li>Alle, die privat Hilfe mit professioneller Netzwerktechnik (insbesondere Cisco) benötigen</li>
+    <li>Privatanwender mit gehobenen Ansprüchen</li>
+    <li>Home-Office-Nutzer mit Sicherheitsbedarf</li>
+    <li>Kleine Unternehmen, Praxen & Selbstständige</li>
+    <li>Technikinteressierte, die ihr Netzwerk verstehen möchten</li>
   </ul>
 
-  <p>Ich mache das nebenberuflich aus Interesse an der Technik und helfe gerne bei konkreten Problemen.</p>
+  <p>Ich arbeite nebenberuflich, unabhängig und aus Leidenschaft für Netzwerke. Sie erhalten ehrliche Beratung, faire Preise und schnelle Hilfe – ohne langfristige Bindung oder Abo.</p>
 
-  <p><strong>Preis:</strong> Faire Preise nach Absprache (VB).<br>
-  Schildern Sie mir einfach Ihr Problem, dann besprechen wir den Aufwand.</p>
+  <p><strong>Preis:</strong> Transparent & fair – nach Aufwand, keine versteckten Kosten.</p>
 
- <footer>
-  <a href="mailto:OC-ITS@protonmail.com" class="contact-button">Jetzt Kontakt aufnehmen</a>
-  <p>© 2025 – Netzwerkhilfe Kiel</p>
-</footer>
-
+  <footer>
+    <a href="mailto:OC-ITS@protonmail.com" class="contact-button">Jetzt Kontakt aufnehmen</a>
+    <p>© 2025 – Netzwerkhilfe Kiel</p>
+  </footer>
 </body>
 </html>
