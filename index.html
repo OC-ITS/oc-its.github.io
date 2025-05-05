@@ -13,7 +13,6 @@
       line-height: 1.6;
       background: #f9f9f9;
       color: #333;
-      position: relative;
     }
     h1, h2 {
       color: #004f9f;
@@ -26,23 +25,39 @@
       font-size: 0.9em;
       color: #666;
     }
-    .top-right-image {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      width: 400px;
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .header-text {
+      flex: 1;
+    }
+    .header-image {
+      max-width: 300px;
+      margin-left: 20px;
+    }
+    @media (max-width: 700px) {
+      .header-container {
+        flex-direction: column;
+      }
+      .header-image {
+        margin: 20px 0;
+        max-width: 100%;
+      }
     }
   </style>
 </head>
 <body>
 
-  <!-- Bild oben rechts -->
-  <img src="Netzwerk.png" alt="Netzwerkübersicht" class="top-right-image">
-
-  <h1>Hallo liebe Kielerinnen und Kieler,</h1>
-
-  <p>Läuft Ihr Heimnetzwerk oder kleines Büro-LAN nicht rund?<br>
-  Haben Sie spezielle Hardware (z. B. von Cisco) und brauchen Unterstützung bei der Einrichtung oder Fehlersuche?</p>
+  <div class="header-container">
+    <div class="header-text">
+      <h1>Hallo liebe Kielerinnen und Kieler,</h1>
+      <p>Läuft Ihr Heimnetzwerk oder kleines Büro-LAN nicht rund?<br>
+      Haben Sie spezielle Hardware (z. B. von Cisco) und brauchen Unterstützung bei der Einrichtung oder Fehlersuche?</p>
+    </div>
+    <img src="Netzwerk.png" alt="Netzwerkübersicht" class="header-image">
+  </div>
 
   <p>Als erfahrener IT-Fachmann mit viel praktischer Erfahrung im Bereich Cisco (Routing, Switching, Firewall) und guten Kenntnissen anderer professioneller Netzwerkhersteller, biete ich privat meine Unterstützung in Kiel und naher Umgebung an.</p>
 
