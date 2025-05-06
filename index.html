@@ -33,8 +33,9 @@
   }
   </script>
 
-  <!-- Google Fonts -->
+  <!-- Google Fonts + Font Awesome -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <style>
     body {
@@ -58,10 +59,15 @@
       margin-top: 1.5em;
     }
     ul {
-      padding-left: 20px;
+      list-style: none;
+      padding-left: 0;
     }
     li {
       margin-bottom: 0.5em;
+    }
+    li i {
+      margin-right: 8px;
+      color: #003e7e;
     }
     footer {
       margin-top: 60px;
@@ -108,6 +114,13 @@
         margin-top: 20px;
       }
     }
+    .section-divider {
+      border: none;
+      height: 2px;
+      background: linear-gradient(to right, #ccc, #003e7e, #ccc);
+      margin: 40px 0;
+      border-radius: 2px;
+    }
   </style>
 </head>
 <body>
@@ -119,22 +132,24 @@
     <img src="Netzwerk.png" alt="Netzwerkübersicht" class="header-image">
   </div>
 
+  <hr class="section-divider">
+
   <h2>Wobei ich helfen kann:</h2>
   <ul>
-    <li><strong>Fehlersuche & Problemlösung:</strong> Ich finde Netzwerkprobleme auf Layer 2 und Layer 3 – schnell und effizient.</li>
-    <li><strong>Einrichtung & Konfiguration:</strong> Router, Switches, Firewalls – professionell eingerichtet für optimale Leistung und Sicherheit.</li>
-    <li><strong>Firewall & Sicherheit:</strong> Konfiguration von VLANs, Gastnetzwerken und Zugriffsregeln.</li>
-    <li><strong>Cisco Know-how:</strong> Spezialisiert auf Cisco, aber auch Erfahrung mit vielen anderen Herstellern.</li>
-    <li><strong>Cybersecurity:</strong> Beratung zu Netzwerksicherheit, Multi-Faktor-Authentifizierung und Intrusion Detection Systemen.</li>
-    <li><strong>Verständliche Erklärung:</strong> Technik ohne Fachchinesisch – Sie wissen, was in Ihrem Netzwerk passiert.</li>
+    <li><i class="fa-solid fa-screwdriver-wrench"></i><strong> Fehlersuche & Problemlösung:</strong> Ich finde Netzwerkprobleme auf Layer 2 und Layer 3 – schnell und effizient.</li>
+    <li><i class="fa-solid fa-plug-circle-check"></i><strong> Einrichtung & Konfiguration:</strong> Router, Switches, Firewalls – professionell eingerichtet für optimale Leistung und Sicherheit.</li>
+    <li><i class="fa-solid fa-shield-halved"></i><strong> Firewall & Sicherheit:</strong> Konfiguration von VLANs, Gastnetzwerken und Zugriffsregeln.</li>
+    <li><i class="fa-solid fa-diagram-project"></i><strong> Cisco Know-how:</strong> Spezialisiert auf Cisco, aber auch Erfahrung mit vielen anderen Herstellern.</li>
+    <li><i class="fa-solid fa-user-shield"></i><strong> Cybersecurity:</strong> Beratung zu Netzwerksicherheit, Multi-Faktor-Authentifizierung und Intrusion Detection Systemen.</li>
+    <li><i class="fa-solid fa-comments"></i><strong> Verständliche Erklärung:</strong> Technik ohne Fachchinesisch – Sie wissen, was in Ihrem Netzwerk passiert.</li>
   </ul>
 
   <h2>Für wen ist mein Service ideal?</h2>
   <ul>
-    <li>Privatanwender mit gehobenen Ansprüchen</li>
-    <li>Home-Office-Nutzer mit Sicherheitsbedarf</li>
-    <li>Unternehmen mit überschaubarer IT, die persönliche Unterstützung schätzen</li>
-    <li>Technikinteressierte, die ihr Netzwerk verstehen möchten</li>
+    <li><i class="fa-solid fa-user"></i> Privatanwender mit gehobenen Ansprüchen</li>
+    <li><i class="fa-solid fa-house-laptop"></i> Home-Office-Nutzer mit Sicherheitsbedarf</li>
+    <li><i class="fa-solid fa-building"></i> Unternehmen mit überschaubarer IT, die persönliche Unterstützung schätzen</li>
+    <li><i class="fa-solid fa-microchip"></i> Technikinteressierte, die ihr Netzwerk verstehen möchten</li>
   </ul>
 
   <p>Ich arbeite nebenberuflich, unabhängig und aus Leidenschaft für Netzwerke. Meine Unterstützung erfolgt ohne gewerblichen Hintergrund oder kommerzielle Verpflichtung.</p>
